@@ -1,1 +1,30 @@
-
+cd Download/
+sudo chmod 600 labsuser.pem
+sudo scp -i labsuser.pem labsuser.pem ubuntu@publicip:/home/ubuntu
+sudo ssh -i labsuser.pem ubuntu@<publicip>
+sudo apt-get update -y
+sudo apt-get install apache2 php libapache2-mod-php php-mysql mysql-client -y
+sudo git clone <url>
+cd cafedynamic/mompopcafe  ls
+sudo cp -rf * /var/ww/html/
+sudo rm -rf /var/www/html/index.html
+sudo systemctl restart apache2 (use public ip to access cafeapp without db) 
+cd  ls  sudo chmod 600 labsuser.pem
+sudo ssh -i labsuser.pem ubuntu@<privateip>
+sudo apt-get update
+sudo apt-get install mysql-server -y
+ls /etc/mysql
+sudo nano /etc/mysql/mysql.conf.d   (edit bind address = 0.0.0.0)
+sudo systemctl restart mysql
+sudo mysql -u root -p
+CREATE database cafedb;
+CREATE user 'cafe'@'locahost' IDENTIFIED WITH musql_native_password BY 'msis@123';
+GRANT ALL PRIVILAGES ON cafedb * TO 'cafe'@'%' WITH GRANT OPTIONS;  exit
+cd cafedynamic/mompopdb/  ls (.sql)
+sudo mysql -h (dbserverprivateip) -u msis -p (user password)
+show databases;  use cafedb;  source cafe-db.sql;  show tables;
+select * from product;  exit;
+cd /var/www/html/
+sudo nano getAppParameters.php (edit url:privateip, name:cafedb, user:msis, password:msis@123
+sudo service apache2 restart
+sudo systemctl restart apache2
