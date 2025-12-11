@@ -1,0 +1,42 @@
+
+1. Design a Bullet Proof Architecture for hosting a Café Static website for using AWS Services. Implement the design using Cloud Formation.  
+>>>Architecture- module11 – Automate infrastructure Deployment  
+
+2. Cafe business client wishes to manage inventory of stores across different regions. Client wishes to have dashboard application to view the status of 
+stocks. Also, he/she is wishing to have a managed or server less approach to implement the same. As a Cloud architect engineer implement a 
+solution to the above business problem.   
+>>>Architecture- module14- Implementing serverless architecture on AWS 
+
+1. Design a cloud virtual network in a region to host web servers and database servers in a highly available and fault-tolerant fashion for café 
+dynamic website as a prod environment. Deploy the café dynamic app and run some orders of product.  
+2. Design an architecture for to migrate the same solution to a managed solution for database without losing any order data in the previous task.  
+>>>Architecture- module 6 -VPC RDS combined -Migrating a database to Amazon RDS 
+
+1. Café business Client requires a solution for hosting static website as they wish to promote café products to their customers.  
+>>>Architecting- module4- creating a static website for café S3 bucket to host your static website 
+
+2. Design a highly available, fault tolerant, scalable and elastic Cloud architecture for café dynamic application. Also implement scaling of cloud 
+infrastructure to handle on-demand workload.    
+>>> Foundations- module 10- Scale and load balance your architecture 
+ 
+1. Café business Client requires a solution for hosting static website as they wish to promote café products to their customers 
+>>>Architecting- module4- creating a static website for café S3 bucket to host your static website 
+
+2. Client wishes to migrate monolithic application in to micro services. As a Cloud Architect provide a cloud native solutions to deploy micro services 
+application suing container orchestration services.  
+>>>Architecting- module14- Breaking a monolithic Node.js application into microservices 
+
+1. Café business Client requires a solution for hosting static website as they wish to promote café products to their customers.  
+>>>Architecting- module4- creating a static website for café S3 bucket to host your static website 
+
+2. Cafe business client wishes to get daily sales report of products sold in the café via an Email. Client is wishing to have a managed or server less 
+approach to implement the same. As a Cloud operations engineer implement a solution to the above business problem.   
+>>>Architecture- module14- Implementing serverless architecture on AWS 
+
+1. Design a cloud virtual network in a region to host web servers and database servers in a highly available and fault-tolerant fashion for café dynamic 
+website as a prod environment. Deploy the café dynamic app and run some orders of product.   
+>>> Foundations- module 5- Build your VPC and Launch a web  server 
+
+2. Café Client wishes to quickly, reliably provision the business unit in different region. So automate the process to deploy network layer and café 
+application layer on top of network stack.  
+>>>Architecting- module 11- Automating Infrastructure with AWS Cloud Formations- Iac 
